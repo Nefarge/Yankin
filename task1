@@ -1,0 +1,16 @@
+#include <iostream>
+using namespace std;
+void  main()
+{
+    int x=5;
+    double f,y1;
+    f = (1 + sin(2 * x)) / cos(2 * x);
+    cout.precision(4); 
+    cout << f;    //вывод
+
+
+    cout << "\nvvedite x \n";
+    cin >> x;
+    f = (1 + sin(2 * x)) / cos(2 * x);
+    cout << f; 
+}    
