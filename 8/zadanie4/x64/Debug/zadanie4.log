@@ -1,0 +1,5 @@
+﻿  task7_func.cpp
+  task7_main.cpp
+C:\Users\Maksim\source\repos\8\zadanie4\task7_main.cpp(8,1): warning C4326: возвращаемый тип "main" должен быть "int", а не "void"
+  Создание кода...
+  zadanie4.vcxproj -> C:\Users\Maksim\source\repos\8\x64\Debug\RAbota 1 yankin.exe
