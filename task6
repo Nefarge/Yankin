@@ -1,0 +1,35 @@
+#include <iostream>
+
+using namespace std;
+
+void f1();
+extern double x, result;
+ 
+void  main()
+
+{
+     
+    cout.precision(4);
+     
+    cout << "vvedite x = ";
+    cin >> x;
+    cout << "f = ";
+    f1();
+    cout << result ;
+
+}
+
+ 
+				///func.cpp
+
+#include <iostream>
+
+using namespace std;
+
+void f1();
+double x, result;
+
+void f1(void)
+{
+    result = (1 + sin(2 * x)) / cos(2 * x);
+}
