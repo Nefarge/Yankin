@@ -1,0 +1,37 @@
+	          	//	main
+#include <iostream>
+#include "func.h"
+
+using namespace std;
+  
+void  main()
+{
+    cout.precision(4);
+    cout << "x=" ;
+    cin >> x;
+    f1();
+    cout << "f=" << result ;
+}
+				
+  
+	              	//	task7_func.cpp
+#pragma once
+
+#include <iostream>
+#include "func.h"
+using namespace std;
+
+void f1(void);
+double x, result;
+
+void f1(void)
+{
+    result = (1 + sin(2 * x)) / cos(2 * x);
+}
+		
+    
+    
+    
+            ////    func.h
+void f1();
+extern double x, result;
