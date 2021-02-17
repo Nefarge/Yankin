@@ -1,0 +1,23 @@
+#include <iostream>
+
+using namespace std;
+
+ 
+double f1(double x)
+{
+    return   (1 + sin(2 * x)) / cos(2 * x);
+}
+void  main()
+
+{
+    int x = 5;
+    double f, y1;
+    f = (1 + sin(2 * x)) / cos(2 * x);
+    cout.precision(4);
+    cout << "x=" << x << "\nf=" <<  f;    //вывод
+
+
+    cout << "\nvvedite x = ";
+    cin >> x;
+    cout << "f = " << f1(x);
+}
